@@ -1,0 +1,22 @@
+{
+  "name": "alpacafeatures",
+  "version": "1.0.0",
+  "description": "A website made for the ever-growing Instagram page, AlpacaFeatures",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarlKardon/AlpacaFeatures.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KarlKardon/AlpacaFeatures/issues"
+  },
+  "homepage": "https://github.com/KarlKardon/AlpacaFeatures#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
