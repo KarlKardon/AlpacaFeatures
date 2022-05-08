@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/css/main.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <title>Alpaca Features</title>
 
     <style>
@@ -23,7 +24,7 @@
         }
 
         .altlight {
-            background-color: #f7d7e9;
+            background-color: #f7edf3;
         }
 
         .bgstretch {
@@ -40,6 +41,10 @@
             right: 50%;
             margin-left: -50vw;
             margin-right: -50vw;
+        }
+
+        section {
+            padding: 30px 0;
         }
     </style>
 
@@ -85,19 +90,107 @@
         </div>
     </div>
 
-    <div class="container mt-3">
-        <div class="col text-center">
-            <h1>
-                A Page With a Purpose
-            </h1>
+    <div class="container mt-3 mb-4">
+        <div class="row">
+            <div class="col ms-3">
+                <h1>
+                    <div class="display-1">A Page</div>
+                    <div class="display-1">With Purpose.</div>
+                </h1>
+            </div>
+            <div class="col-2 pt-5 justify-content-center text-center">
+                <div class="display-1">
+                    <i class="bi bi-heart-fill text-primary"></i>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col ms-3">
+                <h1 class="text-muted">See how you can make an impact with your social media usage.</h1>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col ms-3">
+                <h6 class="text-muted">
+                    When you interact with an AlpacaFeatures social media page, you are joining the fight for animal
+                    rights
+                </h6>
+            </div>
         </div>
     </div>
 
-
+    <!-- About us Section -->
+    <section id="about" class="altlight">
+        <div class="container-fluid m-3">
+            <div class="text-center justify-content-center">
+                <h1>About Us</h1>
+            </div>
+            <div class="accordion m-5" id="aboutsections">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading-1">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#ourcause" aria-expanded="true" aria-controls="ourcause">
+                            Our Cause
+                        </button>
+                    </h2>
+                    <div id="ourcause" class="accordion-collapse collapse show" aria-labelledby="heading-1"
+                        data-bs-parent="#chapters">
+                        <div class="accordion-body">
+                            <p>AlpacaFeatures is a social media organization that aims to provide entertaining alpaca
+                                content.</p>
+                            <p>Not only do we provide entertaining content, but we put the money we make from it to a
+                                formidable cause. We donate 50% of our proceeds to credible animal rights organizations
+                                in order to give both power and purpose to our followers.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading-2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#transparency" aria-expanded="true" aria-controls="transparency">
+                            Transparency
+                        </button>
+                    </h2>
+                    <div id="transparency" class="accordion-collapse collapse" aria-labelledby="heading-2"
+                        data-bs-parent="#transparency">
+                        <div class="accordion-body">
+                            <p>In order to diffuse any ambiguity of how our money is being used, we aim to disclose as
+                                much information we can as to how our money is being spent</p>
+                            <p>For example, we share how much money is being made from our outlets of income including
+                                merchandize and advertising. We also show what organizations we are donating to and
+                                provide information on each.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="heading-3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#support" aria-expanded="true" aria-controls="support">
+                            How to Support
+                        </button>
+                    </h2>
+                    <div id="support" class="accordion-collapse collapse" aria-labelledby="heading-2"
+                        data-bs-parent="#support">
+                        <div class="accordion-body">
+                            <p>Viewing AlpacaFeatures content is free and accessible, one does not need to pay a dime to support our mission to fight animal abuse.</p>
+                            <p>The organization makes its income through advertising on its social media pages, selling merchandise, and receiving donations. Though donating and purchasing merchandise costs money, supporting the social media pages does not. When one interacts with our social media pages, they are increasing our value as a page to advertisers, making us receive more money from them overall.</p>
+                            <p>The best way to contribute to our cause is directly through donations or buying merchandise, to learn more, click <a href="/store.html">here</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+    <section id="parters">
+        <div class="container-fluid my-3">
+            
+        </div>
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
